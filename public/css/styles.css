@@ -147,3 +147,167 @@ body.dark-mode .icon-square {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+/* public/css/styles.css (continuação) */
+
+/* Estilos para a Seção Hero (Cabeçalho Principal) */
+.hero-section {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    border: 5px solid var(--cor-secundaria-light);
+    box-shadow: var(--glass-box-shadow);
+    margin-bottom: 1.5rem;
+}
+
+.hero-section .display-4.fw-bold {
+    font-size: 3rem;
+    color: var(--cor-texto-light);
+}
+
+.hero-section .lead {
+    color: var(--cor-texto-light);
+    font-size: 1.2rem;
+    max-width: none;
+}
+
+.social-links {
+    margin-top: 1.5rem;
+}
+
+.social-links .list-inline-item a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--cor-accent-light);
+    color: var(--cor-secundaria-light);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-links .list-inline-item a:hover {
+    background-color: var(--cor-accent-dark);
+    color: var(--cor-texto-dark);
+}
+
+.social-links .list-inline-item a i {
+    font-size: 1.2rem;
+}
+
+.hero-section .btn.btn-primary.btn-lg {
+    border-radius: 1rem;
+    padding: 0.75rem 1.75rem;
+    font-size: 1.1rem;
+}
+
+/* Estilos para Títulos de Seção (Sobre Mim, Experiência, Projetos, Contato) */
+.section-title.fw-bold.mb-4 {
+    font-size: 2rem;
+    color: var(--cor-accent-light);
+    text-align: left;
+    margin-bottom: 2.5rem;
+    position: relative;
+    padding-bottom: 0.8rem;
+    display: inline-block;
+    width: fit-content;
+}
+
+.section-title.fw-bold.mb-4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 4px;
+    background-color: var(--cor-accent-light);
+    border-radius: 2px;
+}
+
+
+/* Estilos para Cards de Experiência Acadêmica e Projetos */
+.card {
+    background-color: var(--cor-secundaria-light);
+    border: none;
+    border-radius: 15px;
+    box-shadow: var(--glass-box-shadow);
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title.fw-bold {
+    font-size: 1.3rem;
+    color: var(--cor-texto-light);
+    margin-bottom: 0.75rem;
+}
+
+.card-subtitle.mb-2.text-muted {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: var(--cor-texto-light);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card .btn.btn-primary {
+    border-radius: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+}
+
+/* Estilos para a Lista de Contato */
+.contact-list {
+    padding-left: 0;
+}
+
+.contact-list li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    color: var(--cor-texto-light);
+    display: flex;
+    align-items: center;
+}
+
+.contact-list li i {
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+    color: var(--cor-accent-light);
+    width: 1.2em;
+    text-align: center;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.contact-list li a:hover {
+    color: var(--cor-accent-dark);
+}
