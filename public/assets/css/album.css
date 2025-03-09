@@ -1,0 +1,15 @@
+/* public/assets/css/album.css */
+
+/* Você pode adicionar seus estilos CSS customizados aqui */
+body {
+    font-family: 'Nunito', sans-serif; /* Exemplo de fonte */
+  }
+  
+  .album {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .card-text {
+      min-height: 100px; /* Altura mínima para o texto do card */
+  }
