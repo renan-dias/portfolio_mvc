@@ -3,8 +3,8 @@
 return [
     'host'     => 'localhost', // Endereço do servidor MySQL (geralmente 'localhost' para desenvolvimento local)
     'database' => 'portfolio',    // Nome do banco de dados que criamos (portfolio)
-    'username' => 'seu_usuario_mysql', // Seu nome de usuário do MySQL
-    'password' => 'sua_senha_mysql', // Sua senha do MySQL
+    'username' => 'root', // Seu nome de usuário do MySQL
+    'password' => '', // Sua senha do MySQL
     'charset'  => 'utf8mb4',   // Codificação de caracteres (UTF-8 Unicode, recomendado)
     'collation' => 'utf8mb4_unicode_ci', // Collation para UTF-8 (para comparar strings corretamente)
     'options'   => [             // Opções adicionais de conexão (opcional, mas recomendado)
