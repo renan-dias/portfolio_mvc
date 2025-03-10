@@ -34,7 +34,7 @@ class PortfolioController {
         ];
 
         // Carregar a view 'index' dentro do layout 'default' e passar os dados
-        $this->view('portfolio/index', $data);
+        $this->view('index', $data);
     }
 
     protected function view(string $viewPath, array $data = []) {
