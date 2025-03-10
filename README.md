@@ -10,7 +10,7 @@ Este projeto é um **portfólio online completo e dinâmico**, desenvolvido para
 Construído com **PHP puro** e seguindo o padrão **MVC (Model-View-Controller)**, este portfólio oferece:
 
 *   **Painel de Controle (Dashboard) Completo:** Para você gerenciar todo o conteúdo do seu portfólio de maneira fácil e intuitiva.
-*   **Frontend Público Atraente:** Uma interface visualmente agradável e responsiva para apresentar seu portfólio ao mundo.
+*   **Frontend Público Atraente:** Uma interface visualmente     agradável e responsiva para apresentar seu portfólio ao mundo.
 
 ## Funcionalidades Principais ✅
 

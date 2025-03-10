@@ -1,0 +1,7 @@
+{
+    "name": "meu-portfolio/portfolio",
+    "description": "Meu portfolio online pessoal",
+    "require": {
+        "php": ">=7.4"
+    }
+}
