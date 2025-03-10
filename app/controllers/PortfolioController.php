@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/../models/PortfolioModel.php';
+
 // app/controllers/PortfolioController.php
 
 class PortfolioController {
