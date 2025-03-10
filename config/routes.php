@@ -3,7 +3,8 @@
 // app/config/routes.php
 
 $routes = [
-
+    '/portfolio-publico' => 'PortfolioController@public',
+    
     // Rotas Públicas do Frontend
     '/' => 'FrontendController@index',         // Página inicial do portfólio
     '/projetos' => 'FrontendController@projetos',   // Página listando os projetos
