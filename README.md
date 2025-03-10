@@ -90,4 +90,4 @@ Sinta-se à vontade para entrar em contato caso tenha dúvidas, sugestões ou qu
 
 ---
 
-**Feito com ❤️ e PHP!**
+**Feito com ❤️‍🔥 e PHP! (Ou não rsrs)**
